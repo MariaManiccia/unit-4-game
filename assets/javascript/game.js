@@ -9,28 +9,28 @@ $(document).ready(function() {
             name: 'JPrince',
             health: 180,
             attack: 10,
-            imageUrl: "",
+            imageUrl: "C:/unit-4-game/assets/images/jprince.jpg",
             enemyAttackBack: 10
         }, 
         'Kanye': {
             name: 'Kanye',
             health: 150,
             attack: 8,
-            imageUrl: "",
+            imageUrl: "C:/unit-4-game/assets/images/kanye.jpg",
             enemyAttackBack: 10
         }, 
         'Drake': {
-            name: 'finn',
+            name: 'Drake',
             health: 150,
             attack: 8,
-            imageUrl: "",
+            imageUrl: "C:/unit-4-game/assets/images/drake.jpg",
             enemyAttackBack: 10
         }, 
         'PushaT': {
-            name: 'stormtrooper',
+            name: 'PushaT',
             health: 100,
             attack: 7,
-            imageUrl: "",
+            imageUrl: "C:/unit-4-game/assets/images/pushat.jpg",
             enemyAttackBack: 20
         }
     };
