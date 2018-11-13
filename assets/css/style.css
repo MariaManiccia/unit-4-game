@@ -2,12 +2,16 @@
 
 body {
     background-image: url("C:/unit-4-game/assets/images/brickwall.jpg");
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
   }
   header {
-    font-size: 50px;
+      background-color: #DBD2C6;
+      opacity: 0.8;
+      color: black;
+    font-size: medium;
     text-align: center;
     padding: 20px;
+    font-family: 'Sedgwick Ave Display', cursive;
   }
 
   p{
@@ -40,9 +44,7 @@ body {
     font-size: 150%;
   }
   
-  /*---------------------*/
-  /* Character rendering */
-  /*---------------------*/
+/*Character Choosing*/
   .character {
     width: 153px;
     margin: 0px 40px 0px 40px;
@@ -67,9 +69,7 @@ body {
     text-align: center;
   }
   
-  /*---------------------*/
-  /*      Fighting       */
-  /*---------------------*/
+/* The Fight */
   .attack {
     text-align: center;
   }
@@ -102,9 +102,7 @@ body {
     color: white;
   }
   
-  /*---------------------*/
-  /* Available Oponents  */
-  /*---------------------*/
+ /* Remaining Characters */
   #available-to-attack-section {
     float: right;
   }
@@ -112,9 +110,7 @@ body {
       height: 100px;
   }
   
-  /*---------------------*/
-  /*      Defender       */
-  /*---------------------*/
+/* The Defender */
   
   /*#defender {
     width: 190px;
@@ -131,9 +127,7 @@ body {
     text-align: center;
   }
   
-  /*---------------------*/
-  /*   Media Queries     */
-  /*---------------------*/
+/* Media */
   @media only screen and (max-device-width: 768px) {
     .character {
       display: block;
