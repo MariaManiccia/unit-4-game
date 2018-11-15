@@ -27,11 +27,22 @@ body {
 
   }
 
+  .sectionTitle{
+    text-align: center;
+  }
+
   .imgThumbnail{
     display: inline-block;
     height: auto;
-    width: 150px;
+    width: 200px;
+    padding: 20px;
+    background-color: white;
   }
+
+  .inline{
+    display: inline-block;
+  }
+
 
   #gameMessage {
     text-align: center;
