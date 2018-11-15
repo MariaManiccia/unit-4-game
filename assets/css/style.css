@@ -1,7 +1,7 @@
 /* Style the HTML*/
 
 body {
-    background-image: url("c:/unit-4-game/assets/images/brickwall.jpg");
+    background-image: url("../images/brickwall.jpg");
     font-family: 'Sedgwick Ave Display', cursive;
   }
   header {
