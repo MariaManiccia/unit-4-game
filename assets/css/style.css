@@ -33,24 +33,15 @@ body {
     width: 150px;
   }
 
-  .characterWrapper {
-    width: 75%;
-    margin-right: auto;
-    margin-left: auto;
-  }
   #gameMessage {
     text-align: center;
     font-size: 10px;
-  }
-  #chooseEnemyButton {
-    visibility: hidden;
+    padding: 20px;
   }
   #restartButton {
     visibility: hidden;
   }
-  #turnCounter {
-    font-size: 150%;
-  }
+ 
   
 
   
@@ -63,13 +54,6 @@ body {
       background: #000;
       color: #DBD2C6;	
   }
-
- /* Remaining Characters */
-  #availableToAttackSection {
-    float: right;
-  }
-  #availableToAttackSection img {
-      height: 100px;
   
   
 /* Media */
