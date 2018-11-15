@@ -1,2 +1,8 @@
 //Global variables
 
+
+// Functions
+
+
+
+// Main
