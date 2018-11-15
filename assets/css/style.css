@@ -8,7 +8,7 @@ body {
       background-color: #DBD2C6;
       opacity: 0.8;
       color: black;
-    font-size: medium;
+    font-size: large;
     text-align: center;
     padding: 20px;
     font-family: 'Sedgwick Ave Display', cursive;
@@ -20,11 +20,19 @@ body {
       color: black; 
   }
 
-  #main-game-section{
+  #mainGameSection{
     background-color: #DBD2C6;
-    opacity: 0.8;
+    opacity: 0.9;
+    margin-top: 35px;
 
   }
+
+  .imgThumbnail{
+    display: inline-block;
+    height: auto;
+    width: 150px;
+  }
+
   .characterWrapper {
     width: 75%;
     margin-right: auto;
@@ -34,98 +42,35 @@ body {
     text-align: center;
     font-size: 10px;
   }
-  #choose-enemy-button {
+  #chooseEnemyButton {
     visibility: hidden;
   }
-  #restart-button {
+  #restartButton {
     visibility: hidden;
   }
-  #turn-counter {
+  #turnCounter {
     font-size: 150%;
   }
   
-/*Character Choosing*/
-  .character {
-    width: 153px;
-    margin: 0px 40px 0px 40px;
-    cursor: pointer;
-    display: inline-block;
-  }
-  .character img {
-    border: 0 none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 200px;
-  }
-  .character-name {
-    text-align: center;
-    text-transform: capitalize;
-    line-height: 30px;
-    font-family: 'Itim', cursive;
-    font-size: 20px;
-  }
-  .character-health {
-    text-align: center;
-  }
+
   
 /* The Fight */
-  .attack {
-    text-align: center;
-  }
-  .action {
-    margin: 15px 0px;
-  }
-  #attack-button{
+
+  #attackButton{
       visibility: hidden;
   }
   .btn {
       background: #000;
       color: #DBD2C6;	
   }
-  .enemy {
-      width: 153px;
-      margin: 5px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    cursor: pointer;
-    display: inline-block;
-    background-color: red;
-    float: left;
-  }
-  #attacker {
-      padding: 5px;
-  }
-  .target-enemy {
-    background-color: black;
-    color: white;
-  }
-  
+
  /* Remaining Characters */
-  #available-to-attack-section {
+  #availableToAttackSection {
     float: right;
   }
-  #available-to-attack-section img {
+  #availableToAttackSection img {
       height: 100px;
-  }
   
-/* The Defender */
-  
-  /*#defender {
-    width: 190px;
-    height: 160px;
-  }*/
-  #defender-name {
-    text-align: center;
-  }
-  #defender-image {
-    padding: 0px 16px;
-    margin: 3px 0px;
-  }
-  #defender-health {
-    text-align: center;
-  }
   
 /* Media */
   @media only screen and (max-device-width: 768px) {

@@ -4,7 +4,7 @@
 $(document).ready(function() {
     
     //  Characters
-    let characters = {
+    var characters = {
         'JPrince': {
             name: 'JPrince',
             health: 180,
@@ -34,3 +34,8 @@ $(document).ready(function() {
             enemyAttackBack: 20
         }
     };
+
+    startGame function(){
+
+        
+    }

@@ -4,13 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Rap Beef RPG Game</title>
-    < <!-- check to make sure links are updated and correct-->
+    <
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-            crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-        <!-- Need to update Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Itim|Montserrat" rel="stylesheet">
 </head>
@@ -19,41 +16,51 @@
     <header>
         <h1>Rap Beef RPG</h1>
     </header>
-    <div class="container" id="main-game-section">
-        <div class="container col-lg-12" id="characters-section">
-            <div class="container section-title"><p>Select Your Character</p></div>
+    <div class="container" id="mainGameSection">
+        <div class="container col-lg-12" id="charactersSection">
+            <div class="container sectionTitle"><p>Select Your Character</p></div>
         </div>
-        <div class="container col-lg-4" id="selected-character-section">
-            <div class="section-title container"></div>
-            <div id="selected-character"></div>
+        <div class="container col-lg-8" id="selectedCharacterSection">
+            
+                <img src="assets\images\drake.jpg" alt="Drake" class="imgThumbnail">
+                <img src="assets\images\jprince.jpg" alt="JRrince" class="imgThumbnail">
+                <img src="assets\images\kanye.jpg" alt="Kanye" class="imgThumbnail">
+                <img src="assets\images\pushat.jpg" alt="PushaT" class="imgThumbnail">
+
+            <div class="sectionTitle container"></div>
+            <div id="selectedCharacter"></div>
         </div>
-        <div class="section-title container col-lg-4"><p>Fight Section</p>
-            <div id="fight-section">
-                <button class="btn" id="attack-button">Attack</button>
-                <div class="jumbotron" id="gameMessage"></div>
+        <div class="sectionTitle container col-lg-8"><p>Fight Section</p>
+            <div id="fightSection">
+                    <img src="assets\images\jprince.jpg" alt="JRrince" class="imgThumbnail">
+                    <img src="assets\images\kanye.jpg" alt="Kanye" class="imgThumbnail">
+                    <img src="assets\images\pushat.jpg" alt="PushaT" class="imgThumbnail">
+                <button class="btn" id="attackButton">Attack</button>
+                <div class="jumbotron" id="gameMessage">
+            <p>Create your own rap beef by choosing a rapper and fighting the others!
+                Try to successfully beef with all the rappers and still come out strong and you'll win!
+                IF not then you've ruined your career. But DON'T GIVE UP! Try again if that happens. 
+                Everyone loves a comeback.
+            </p>
+                </div>
             </div>
         </div>
         <div id="action">
-            <div class="character-section">
-                <div class="container section-title col-lg-3">
+            <div class="characterSection">
+                <div class="container sectionTitle col-lg-3">
                     <div id="defender"></div>
                 </div>
             </div>
         </div>
-        <div class="container" id="available-to-attack-section">
-            <div class="section-title"></div>
+        <div class="container" id="availableToAttackSection">
+            <div class="sectionTitle"></div>
         </div>
 
 
-        <!-- ???    <div class="jumbotron" id="gameMessage"></div>  ???-->
     </div>
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <!-- Latest compiled and minified JavaScript for bootstrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-    <!-- Game logic -->
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>
