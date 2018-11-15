@@ -1,7 +1,7 @@
 /* Style the HTML*/
 
 body {
-    background-image: url("C:/unit-4-game/assets/images/brickwall.jpg");
+    background-image: url("c:/unit-4-game/assets/images/brickwall.jpg");
     font-family: 'Sedgwick Ave Display', cursive;
   }
   header {
@@ -53,8 +53,9 @@ body {
     font-size: 10px;
     padding: 20px;
   }
-  #restartButton {
-    visibility: hidden;
+ 
+  #resetButton {
+    visibility: ;
   }
  
   
@@ -63,7 +64,7 @@ body {
 /* The Fight */
 
   #attackButton{
-      visibility: hidden;
+      visibility: ;
   }
   .btn {
       background: #000;
