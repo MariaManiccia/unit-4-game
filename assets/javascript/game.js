@@ -56,7 +56,7 @@
 		character = null;
 		defenders = [];
 		defender = null;
-		characterSelection = [drake, kanye, jprince, pushat];
+		characterSelection = [kanye, pushat, jprince, drake];
 
 		// resets all character divs
 		$("#character").empty();
@@ -121,6 +121,7 @@
 			var status = "";
 
 			// when defender has been selected
+			debugger;
 			if(defender !== null) {
 				// decrease defender HP by character attack power
 				defender.healthPoints -= character.attackPower;
