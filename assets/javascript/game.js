@@ -4,7 +4,6 @@
 	var drake;
 	var pushat;
 	var jprince;
-
 	var characterSelection = [];
 	var character = null;
 	var defenders = [];
@@ -117,7 +116,7 @@
 	$("#attack").on("click", function() {
 		
 		if(character !== null && character.healthPoints > 0 && defenders.length > 0) {
-			// game status
+			// game status in text
 			var status = "";
 
 			// when defender has been selected
