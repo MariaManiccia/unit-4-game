@@ -23,6 +23,7 @@ body {
       color: black; 
   }
 
+
   #mainGameSection{
     background-color: #DBD2C6;
     opacity: 0.9;
@@ -34,51 +35,16 @@ body {
     text-align: center;
   }
 
-  .imgThumbnail{
-    display: inline-block;
-    height: auto;
-    width: 200px;
-    padding: 25px;
-    background-color: white;
-  }
-
-  .inline{
-    cursor: crosshair;
-    display: inline-block;
-  }
-
 
   #gameMessage {
     text-align: center;
     font-size: 10px;
     padding: 20px;
   }
- 
-  #resetButton {
-    visibility: ;
-  }
- 
-  
 
-  
-/* The Fight */
-
-  #attackButton{
-      visibility: ;
-  }
   .btn {
       background: #000;
       color: #DBD2C6;	
   }
   
   
-/* Media */
-  @media only screen and (max-device-width: 768px) {
-    .character {
-      display: block;
-    height: 150px;    
-    }
-    #gameMessage {
-    font-size: 12px;
-    }
-  }
