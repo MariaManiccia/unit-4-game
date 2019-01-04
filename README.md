@@ -1,14 +1,10 @@
-This is my RPG game made with HTML, CSS, JavaScript, and JQuery.
+<h1>Rap Beef JQuery Game</h1>
 
-To start click on one of the rappers you want to play as.
-Then click an opponent.
-Click the attack button to battle. 
-Each time you click the button, you will attack your opponent and then they will attack back. 
-First person to 0 health points, loses. 
-Try to battle and stay alive until all the rappers are gone.
-If you do, you win!
-
-
-Thanks for playing!
-
-Maria Maniccia
+<h3>This game was made with HTML, CSS, JavaScript, and JQuery.</h3>
+<br>
+Instructions::
+Start by choosing the rapper of your choice. Once you've chosen then you can choose whom you'd like to beef with by clicking on the next rapper. Once both have been chosen, click the attack button to start the beef. Beef until one rapper is shamed to the point of defeat. The fun doesn't stop there! Go ahead and choose another rapper if you'd like to continue beefing. If you lose, just try again! Everyone loves a comeback story.
+<br>
+<br>
+www.mariamaniccia.github.io/unit-4-game
+This is a site built by Maria Maniccia, for Case Western University's Full Stack Bootcamp. 2018

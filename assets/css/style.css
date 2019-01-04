@@ -1,62 +1,58 @@
 /* Style the HTML*/
 
 body {
-    background-image: url("../images/brickwall.jpg");
-    font-family: 'Sedgwick Ave Display', cursive;
-  }
-  header {
-      background-color: #DBD2C6;
-      opacity: 0.8;
-      color: black;
-    text-align: center;
-    padding: 20px;
-    font-family: 'Sedgwick Ave Display', cursive;
-  }
+  background-image: url("../images/brickwall.jpg");
+  font-family: 'Sedgwick Ave Display', cursive;
+}
 
-  h1{
-    font-size: 55px;
-  }
+header {
+  background-color: #DBD2C6;
+  opacity: 0.8;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
 
-  p{
-      font-weight: bolder;
-      font-size: 25px;
-      color: black; 
-  }
+h1 {
+  font-size: 55px;
+}
 
+p {
+  font-weight: bolder;
+  font-size: 25px;
+  color: black;
+}
 
-  #mainGameSection{
-    background-color: #DBD2C6;
-    opacity: 0.9;
-    margin-top: 35px;
+#mainGameSection {
+  background-color: #DBD2C6;
+  opacity: 0.9;
+  margin-top: 35px;
+}
 
-  }
+.sectionTitle {
+  text-align: center;
+}
 
-  .sectionTitle{
-    text-align: center;
-  }
+#gameMessage {
+  text-align: center;
+  font-size: 10px;
+  padding: 20px;
+}
 
+.btn {
+  background: #000;
+  color: #DBD2C6;
+}
 
-  #gameMessage {
-    text-align: center;
-    font-size: 10px;
-    padding: 20px;
-  }
+.panel {
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  margin: 10px;
+}
 
-  .btn {
-      background: #000;
-      color: #DBD2C6;	
-  }
-
-  .panel {
-    display: inline-block;
-    text-align: center;
-    background-color: white;
-    margin: 10px;
-  }
-  
-  .panel img {
-    max-height: 150px;
-    width: auto;
-  }
-  
-  
+.panel img {
+  max-height: 150px;
+  width: auto;
+}
