@@ -7,4 +7,5 @@ Start by choosing the rapper of your choice. Once you've chosen then you can cho
 <br>
 <br>
 www.mariamaniccia.github.io/unit-4-game
+<br>
 This is a site built by Maria Maniccia, for Case Western University's Full Stack Bootcamp. 2018
